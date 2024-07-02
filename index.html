@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xs: "400px",
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+            "2xl": "1536px",
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            font-family: "Noto Sans", sans-serif;
+        }
+    </style>
+  </head>
+  <body>
+    <header class="flex justify-between px-3 bg-gray-400 h-[70px] item-center text-white font-medium">
+      <div class="text-lg font-bold">
+        <span class="text-red-700">COLO</span>App
+      </div>
+      <ul class="menu flex justify-end item-center gap-5">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
+    </header>
+    <div class="contain flex w-[90%] md:w-80% mx-auto justify-between item-center flex-col md:flex-row my-[100px] gap-[50px]">
+      <div class="container_body flex flex-col gap-[20px] md:w-[60%] w-[80%]">
+        <h2 class="text-3xl font-bold">It's Heading</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore
+          doloribus facere repudiandae, maiores nesciunt quia saepe fuga
+          adipisci illum magnam voluptas at, totam temporibus numquam,
+          accusantium necessitatibus amet voluptatem delectus. Cupiditate unde
+          earum quasi? Magnam quod accusamus odit dignissimos vitae. Architecto
+          alias veniam, similique quis culpa perferendis repellat vel officia
+          itaque, dolore ducimus amet neque, nesciunt quia omnis. Distinctio
+          iste quo magnam tempore aspernatur, praesentium labore, itaque
+          obcaecati temporibus harum dolore ipsam iure. Ut odit sequi, est sed
+          quam totam exercitationem cumque quibusdam doloremque soluta minus!
+          Possimus quaerat molestiae omnis accusantium sed nobis ex impedit
+          neque, totam at, facere eligendi.
+        </p>
+      </div>
+      <img src="img1.jpeg" alt="office image" class="rounded-md w-[350px]" />
+    </div>
+
+    <div class="cards flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] justify-center" >
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img class="rounded-md" src="img3.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p class="text-center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img2.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img4.jpeg" alt=""/>
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img1.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img2.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img3.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img4.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img1.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+      <div class="card_body rounded-md shadow-lg md:w-[30%] p-4 w-[300px]">
+        <img src="img2.jpeg" alt="" />
+        <h4 class="text-2xl font-bold flex flex-col item-center">Card Heading</h4>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est,
+          laboriosam voluptates voluptatibus qui perspiciatis omnis sit
+          exercitationem vel laborum consectetur dolor eum magni adipisci, porro
+          nobis aut ex itaque ad. Aspernatur eum vero voluptas sit ipsa,
+          repellendus ad expedita harum iure nisi sunt? Sint, harum? Alias ea
+          doloribus deleniti doloremque?
+        </p>
+      </div>
+    </div>
+
+    <footer class="text-center my-[50px] text-xl">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <p class="font-semibold">@All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
